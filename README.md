@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
@@ -20,4 +19,3 @@ CasperGasper
 ============
 
 Modification of the Casper default Ghost blog theme
->>>>>>> d553a0dcff595d877d449aa758e469cff74a28e0
