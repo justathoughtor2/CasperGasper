@@ -486,7 +486,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-header-content {
-    background-size: 100%;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
