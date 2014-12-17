@@ -485,6 +485,11 @@ margin on the iframe, cause it breaks stuff. */
     width: 80%;
 }
 
+.main-header-content {
+    background-size: cover;
+    overflow: hidden;
+}
+
 .main-nav {
     position: relative;
     padding: 35px 40px;
