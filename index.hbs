@@ -7,9 +7,10 @@
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
     </nav>
     <div class="vertical">
-        <div class="main-header-content inner" {{#if @blog.logo}}style="background-image: url({{@blog.logo}});"{{/if}}>
-            {{#unless @blog.logo}}<h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>{{/unless}}
+        <div class="main-header-content inner">
+            {{#if @blog.logo}}<a href="{{@blog.url}}"><img src="{{@blog.logo}}" /></a>{{/if}}
+            <a href="{{@blog.url}}"><h1 class="page-title">{{@blog.title}}</h1></a>
+            <h2 class="page-description">{{@blog.description}}</h2>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
