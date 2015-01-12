@@ -577,9 +577,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blog-logo-center {
-    position: relative;
     height: 25%;
-    width: 25%;
 }
 
 .back-button {
