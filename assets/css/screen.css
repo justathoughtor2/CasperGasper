@@ -1498,6 +1498,10 @@ body:not(.post-template) .post-title {
         height: 26px;
     }
 
+    .blog-logo-center {
+        height: 15%;
+    }
+
     .back-button,
     .subscribe-button {
         height: 44px;
