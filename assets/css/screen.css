@@ -763,7 +763,7 @@ body:not(.post-template) .post-title {
 
 .post-links {
     position: fixed;
-    right: 5%;
+    left: 5%;
     top: 15%;
     display: block;
 }
