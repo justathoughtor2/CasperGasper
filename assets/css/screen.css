@@ -770,8 +770,9 @@ body:not(.post-template) .post-title {
 
 .post-link {
     text-decoration: none;
+    text-transform: uppercase;
     color: #B25959;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.8rem;
     display: block;
 }
