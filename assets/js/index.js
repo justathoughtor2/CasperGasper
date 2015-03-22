@@ -59,6 +59,8 @@
 
         $(".scroll-down").arctic_scroll();
 
+        $(".scroll-link").arctic_scroll();
+
     });
 
     // smartresize

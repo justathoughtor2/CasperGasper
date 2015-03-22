@@ -184,11 +184,6 @@ body {
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
-    perspective: 1px;
-    height: 100%;
-    transform: preserve-3d;
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 
 ::-moz-selection {

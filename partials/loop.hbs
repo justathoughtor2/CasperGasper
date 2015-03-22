@@ -5,9 +5,9 @@
 
 {{! Provide links to the id anchor points of each post on the page }}
 <section class="post-links">
-  <a class="post-link" href="#">Top</a>
+  <a class="post-link scroll-link" href="#">Top</a>
   {{#foreach posts}}
-    <a class="post-link" href="#{{@index}}">{{{title}}}</a>
+    <a class="post-link scroll-link" href="#{{@index}}">{{{title}}}</a>
   {{/foreach}}
 </section>
 
