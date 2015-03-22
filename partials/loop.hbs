@@ -6,7 +6,7 @@
 {{! Provide links to the id anchor points of each post on the page }}
 <section class="postlinks">
   {{#foreach posts}}
-    <a class="post-link" href="#{{@index}}: {{this}}">{{{title}}}</a>
+    <a class="post-link" href="#{{@index}}">{{{title}}}</a>
   {{/foreach}}
 </section>
 
@@ -14,7 +14,7 @@
 {{#foreach posts}}
 <article class="{{post_class}}">
     <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}" id="{{@index}}: {{this}}">{{{title}}}</a></h2>
+        <h2 class="post-title"><a href="{{url}}" id="{{@index}}">{{{title}}}</a></h2>
         <section class="post-meta" style="margin-bottom: 10px">
           {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
           {{author}}
