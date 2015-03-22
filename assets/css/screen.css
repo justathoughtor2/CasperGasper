@@ -1380,6 +1380,7 @@ body:not(.post-template) .post-title {
     }
 
     .scroll-down,
+    .post-links, .post-link,
     .home-template .main-header:after { display: none; }
 
     .archive-template .main-header {
