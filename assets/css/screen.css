@@ -1371,7 +1371,7 @@ body:not(.post-template) .post-title {
       display: block;
   }
   .post-link {
-    display: block;
+    display: inline-block;
     font-size: 1.4rem;
   }
   .scroll-down {
@@ -1411,12 +1411,12 @@ body:not(.post-template) .post-title {
         text-align: center;
         left: 40%;
         right: 40%;
-        bottom: 2%;
+        bottom: .5%;
         z-index: 100;
         display: block;
     }
     .post-link {
-        display: block;
+        display: inline-block;
     }
 
     .archive-template .main-header {
