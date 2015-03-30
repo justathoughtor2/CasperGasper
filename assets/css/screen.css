@@ -1364,9 +1364,9 @@ body:not(.post-template) .post-title {
   .post-links {
       position: fixed;
       text-align: center;
-      left: 40%;
-      right: 40%;
-      bottom: 2%;
+      left: 30%;
+      right: 30%;
+      top: 3%;
       z-index: 100;
       display: block;
   }
@@ -1409,9 +1409,9 @@ body:not(.post-template) .post-title {
     .post-links {
         position: fixed;
         text-align: center;
-        left: 40%;
-        right: 40%;
-        bottom: .5%;
+        left: 30%;
+        right: 30%;
+        top: 3%;
         z-index: 100;
         display: block;
     }
