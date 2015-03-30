@@ -766,6 +766,7 @@ body:not(.post-template) .post-title {
     left: 5%;
     top: 15%;
     display: block;
+    z-index: 100;
 }
 
 .post-link {
@@ -1356,6 +1357,29 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
+   Media Queries - Smaller than 1200px
+   ========================================================================== */
+
+@media only screen and (max-width: 1200px) {
+  .post-links {
+      position: fixed;
+      text-align: center;
+      left: 50%;
+      right: 50%;
+      bottom: 45px;
+      z-index: 100;
+      display: block;
+  }
+  .post-link {
+    display: block;
+    font-size: 1.4rem;
+  }
+  .scroll-down {
+      display: none;
+  }
+}
+
+/* ==========================================================================
    10. Media Queries - Smaller than 900px
    ========================================================================== */
 
@@ -1380,8 +1404,20 @@ body:not(.post-template) .post-title {
     }
 
     .scroll-down,
-    .post-links, .post-link,
     .home-template .main-header:after { display: none; }
+
+    .post-links {
+        position: fixed;
+        text-align: center;
+        left: 50%;
+        right: 50%;
+        bottom: 45px;
+        z-index: 100;
+        display: block;
+    }
+    .post-link {
+        display: block;
+    }
 
     .archive-template .main-header {
         min-height: 180px;
@@ -1744,6 +1780,9 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+    .post-link, .post-links {
+        display: none;
+    }
 }
 
 
