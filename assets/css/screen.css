@@ -764,7 +764,7 @@ body:not(.post-template) .post-title {
 .post-links {
     position: fixed;
     left: 5%;
-    right: 85%;
+    right: 78%;
     top: 15%;
     display: block;
     z-index: 100;
@@ -1367,7 +1367,7 @@ body:not(.post-template) .post-title {
       text-align: center;
       left: 20%;
       right: 20%;
-      top: 15px;
+      top: 95%;
       z-index: 100;
       display: block;
   }
